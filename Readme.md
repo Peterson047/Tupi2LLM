@@ -6,6 +6,7 @@ Tupi2LLM é um projeto que visa processar e estruturar dados lexicográficos da 
 
 O projeto está organizado da seguinte forma:
 
+
 ### Principais Arquivos
 
 - **`Files/`**: Contém os documentos originais, como PDFs e arquivos de texto, que servem como fonte de dados.
@@ -44,8 +45,7 @@ O projeto está organizado da seguinte forma:
 1. **Instale as dependências**:
    ```bash
    pip install PyPDF2 fitz pandas
-   
-Execute o notebook principal:
+   Execute o notebook principal:
 
 Abra Python/Notebooks/BookParsing.ipynb no Jupyter Notebook ou JupyterLab.
 Siga as etapas descritas no notebook para processar os arquivos.
