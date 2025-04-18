@@ -1,6 +1,6 @@
 # Projeto TupiAntigo2LLM: Criação de Dataset a partir de Dicionário OCRizado
 
-!(https://miro.medium.com/v2/resize:fit:720/format:webp/1*wXtFuUNYL6Zr07efqa-X_A.png)
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wXtFuUNYL6Zr07efqa-X_A.png)
 
 ## 1. Objetivo
 
