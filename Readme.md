@@ -2,6 +2,8 @@
 
 **(Status Atual: Fine-tuning inicial concluído, avaliação em andamento)**
 
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wXtFuUNYL6Zr07efqa-X_A.png)
+
 ## 1. Objetivo
 
 Este projeto visa criar um dataset estruturado a partir de um dicionário Tupi Antigo-Português digitalizado (via OCR) e utilizá-lo para realizar o fine-tuning de um Modelo de Linguagem Grande (LLM). O objetivo é desenvolver um modelo capaz de compreender e realizar tarefas básicas relacionadas ao Tupi Antigo, como fornecer definições de vocabulário e, potencialmente, auxiliar na preservação digital e estudo dessa língua ancestral brasileira.
@@ -111,6 +113,7 @@ TUPI2LLM/
 
 ## 8. Próximos Passos Imediatos
 
+<<<<<<< HEAD
 1.  **Avaliação Qualitativa Detalhada:** Usar o `inference_test.py` para testar uma gama maior de palavras (incluindo as que falharam na extração ou estavam no set de validação) e analisar a qualidade, coerência e precisão das definições geradas.
 2.  **Análise de Erros:** Identificar os tipos de erros mais comuns que o modelo comete. Ele alucina? Confunde palavras? Gera respostas genéricas? Falha com termos específicos?
 3.  **Decisão Baseada na Avaliação:**
@@ -160,3 +163,13 @@ As bibliotecas serão instaladas automaticamente no início do notebook.
 - **ADAPTER_HUB_ID**: `peterson047/Tupi2LLM`
 
 > 💡 Dica: Os adaptadores devem ser compatíveis com o modelo base!
+=======
+1.  **Validação e Refinamento Final:** Revisão manual e/ou programática do `dicionario_estruturado_final.json` para corrigir erros remanescentes. Idealmente, refinar o(s) notebook(s) de extração em `Python/Notebooks/` se forem encontrados problemas sistemáticos.
+2.  **Geração dos Datasets de Treinamento Finais:** Criar os arquivos `.txt`, `.csv` ou `.jsonl` definitivos a partir do JSON validado, aplicando a limpeza final durante a geração.
+3.  **Fine-tuning do LLM:**
+    *   Selecionar um modelo base pré-treinado.
+    *   Configurar o ambiente de treinamento (GPU, bibliotecas).
+    *   Executar o fine-tuning usando os datasets divididos (treino/validação) e técnicas como LoRA/QLoRA.
+4.  **Avaliação:** Testar o desempenho do modelo fine-tuned nas tarefas desejadas.
+5.  **Iteração:** Refinar os datasets ou o processo de fine-tuning com base na avaliação.
+>>>>>>> 1baf3ff5714f6e835e004bf46f1b93b60ae19ee6
