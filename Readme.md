@@ -1,5 +1,5 @@
 # Projeto TupiAntigo2LLM: Criação de Dataset a partir de Dicionário OCRizado
-
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*wXtFuUNYL6Zr07efqa-X_A.png
 ## 1. Objetivo
 
 Este projeto visa extrair, limpar e estruturar dados de um dicionário Tupi Antigo-Português digitalizado (via OCR), com o objetivo final de possibilitar o fine-tuning de Modelos de Linguagem Grandes (LLMs) para tarefas relacionadas ao Tupi Antigo (como definição de vocabulário, tradução básica, ou compreensão da estrutura da língua).
